@@ -15,4 +15,4 @@ This project is a simple Banking Application built with Spring Boot, Spring Data
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<guteingenieur>/<banking-application>.git
+   git clone https://github.com/guteingenieur/banking-application.git
