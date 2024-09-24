@@ -1,18 +1,43 @@
 # Banking Application - REST API with Spring Boot
 
-This project is a simple Banking Application built with Spring Boot, Spring Data JPA (Hibernate), and MySQL. It provides basic banking functionalities such as creating a bank account, fetching account details, and performing deposits and withdrawals.
+## Overview
+This project is a robust Banking Application developed using **Spring Boot**, **Spring Data JPA (Hibernate)**, and **MySQL**. It provides essential banking functionalities, allowing users to manage their bank accounts through a RESTful API. The application is designed to be scalable, maintainable, and secure.
 
-## Features
-- **Create Bank Account**: Allows users to create new bank accounts.
-- **Fetch Account Details**: Retrieve the details of a specific bank account.
-- **Deposits and Withdrawals**: Make transactions such as deposits and withdrawals from the account.
+## Key Features
+- **Create Bank Account**: Allows users to seamlessly create new bank accounts with required validation.
+- **Fetch Account Details**: Retrieve comprehensive details of specific bank accounts using unique identifiers.
+- **Deposits and Withdrawals**: Perform transactions including deposits and withdrawals.
 
 ## Technologies Used
-- **Spring Boot**: Framework for building Java applications.
-- **Spring Data JPA (Hibernate)**: For database operations and ORM.
-- **MySQL**: Database to store account details and transactions.
+- **Spring Boot**: Framework for building production-ready Java applications.
+- **Spring Data JPA (Hibernate)**: Simplifies database interactions and implements the repository pattern for ORM.
+- **MySQL**: Reliable relational database management system.
+- **Postman**: Tool for API testing.
 
 ## Installation and Setup
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/guteingenieur/banking-application.git
+    ```
+2. Navigate to the Project Directory:
+   ```bash
+   cd banking-application
+    ```
+
+3. Set Up the Database: Create a MySQL database named `banking_app`.
+   ```sql
+   CREATE DATABASE banking_app;
+    ```
+
+4. Run the Application:
+   ```bash
+   ./mvnw spring-boot:run
+    ```
+
+## API Testing
+- **POST** `/accounts`: Create an account.
+- **GET** `/accounts/{id}`: Fetch account details.
+- **POST** `/accounts/{id}/deposit`: Make a deposit.
+- **POST** `/accounts/{id}/withdraw`: Make a withdrawal.
+
+
