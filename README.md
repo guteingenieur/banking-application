@@ -1,7 +1,7 @@
 # Banking Application - REST API with Spring Boot
 
 ## Overview
-This project is a robust Banking Application developed using **Spring Boot**, **Spring Data JPA (Hibernate)**, and **MySQL**. It provides essential banking functionalities, allowing users to manage their bank accounts through a RESTful API. The application is designed to be scalable, maintainable, and secure.
+This project is a simple Banking Application developed using **Spring Boot**, **Spring Data JPA (Hibernate)**, and **MySQL**. It provides essential banking functionalities, allowing users to manage their bank accounts through a RESTful API. The application is designed to be scalable, maintainable, and secure.
 
 ## Key Features
 - **Create Bank Account**: Allows users to seamlessly create new bank accounts with required validation.
